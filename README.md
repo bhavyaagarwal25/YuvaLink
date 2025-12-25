@@ -75,7 +75,7 @@ Incident indetified
   3. Only Team lead is allowed to raise the  structured requests ADMIN responds accordingly
 
 ## Flow of YUVALINK
-![Flow](flow1.png)
+![Flow](flow.png)
 
 
 
