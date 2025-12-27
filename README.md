@@ -97,7 +97,7 @@ git --version
 ```
 #### Clone the Repository
 ```
-git clone 
+git clone <https://github.com/bhavyaagarwal25/SentinelFront.git>
 ```
 #### Install Dependencies
 ```
