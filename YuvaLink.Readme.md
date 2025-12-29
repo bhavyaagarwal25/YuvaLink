@@ -113,34 +113,10 @@ Incident indetified
 
 ## Flow with Tech
 ![Flow](flow3.png)
-## Installation & Setup
-Prerequisites
-Make Sure the following are installed onyour system:
-* Node.js
-* npm
-* Git
-
-Check version using:
-```
-node -v
-npm -v
-git --version
-```
-#### Clone the Repository
-```
-git clone <https://github.com/bhavyaagarwal25/SentinelFront.git>
-```
-#### Install Dependencies
-```
-npm install
-```
-This will install all required dependencies using:
-* React
-* Vite
-* Tailwind CSS
-* Bootstrap
-* Lucide React(icons)
-#### Run the Development Server
-```
-npm run dev
-```
+## Getting Started
+YuvaLink uses modern web technologies with real-time capabilites,making setup Straightforward compared to complex AI architectures.Our stack ensures reliability,scaliability,and developer productivity.
+### Quick Start
+ 1. Clone the Repository
+ 2. Follow our comprehensive [Installation Guide](/Installation.md)
+ 3. Run the deployment enviorment
+For detailed set up instructions and deployment guides, please refer to our [Installation Guide] (/Installation.md)
