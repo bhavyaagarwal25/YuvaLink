@@ -48,15 +48,17 @@ Authorities Face difficulty in:
       |---> Maintaining safety and control
 
 ```
-### What we identify?
+### What we identify ?
 ```
 Information exists   -> But scattered across platforms
 Resource exist       -> But not optimally utilized
 Volunteer exist      -> But no structured deployment system 
 Effective Coordination is missing
 ```
-### How we Solve this?
-We have 2 Dashboard one for Admin and another one for volunteers.
+### How we Solve this ?
+### Two Dashboard System
+ * Admin Dashboard -> Disaster Monitoring & coordination control
+ * Volunteer Dashboard -> Task management & communication
 ### Disaster detection & Incident Creation :
 * Disaster-information reaches the sytsem in two ways:
 
@@ -74,8 +76,10 @@ Incident appear on system by News Api/Manual Input
 * Only volunteers within the affected region are considered
 * First priority is Nearby verified volunteers
 ```
-Incident identified --> Search for Nearby volunteer
-                                     
+Incident identified
+        |--->Check Live Volunteer Locations
+                   |--->Filter Volunteers in Affected Region
+                             |---> Priorit: Nearest Verified Volunteers
 ```
 ### Real - Time Task Allocation to Volunteers : 
 * Instant task notification system
