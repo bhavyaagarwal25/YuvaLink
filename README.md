@@ -1,10 +1,10 @@
 <div align="center">
  <span>
  <img src="logo.png" alt="YuvaLink" width="150" height="auto" />
- </span>
+</span>
 </div>
 
-### Problem Statement
+## Problem Statement
 In Disastar situations,information about the incident usually reaches authorities through tradional ways helplines and control rooms.
 However,the Real- challenge begins after that-Coordinating volunteers efficiently and safely.
 ```
@@ -27,7 +27,12 @@ YuvaLink bridges the gap between disaster information,available volunteers and c
 It refers to youth-focused platform and intiatives that aim to connect young and civilian volunteers.
 
 For Better Understanding here is our [**Presentation**](https://docs.google.com/presentation/d/1qgxC8A8gGHOrgrNvrWlTn6GrzoLbNCwF/edit?usp=sharing&ouid=103690335248498847681&rtpof=true&sd=true)
-### Why existing solution fail ?
+### Why Existing Solutions Fail ?
+Most platforms lack real-time features:
+1.  Volunteers( [VolunteerMatch](https://www.idealist.org/volunteermatch), [UNV](https://www.unv.org/) ) -> slow matching,no emergency focus,general volunteer system,not disaster-specific
+2.  Alert systems ( Sachet, MyGov ) -> one-way communication only
+3.  Social Media ( WhatsApp, Twitter) -> unverified info,no task management
+4.  Disaster apps (Disaster Alert) -> info only , no coordination 
 ```
 Disaster Occurs
       |---> Public informs authorities
@@ -45,10 +50,10 @@ Authorities Face difficulty in:
 ```
 ### What we identify?
 ```
-Information exists
-Resource exist
-Volunteer exist but EffECTIVE USE is missing 
-So,WE ARE HERE TO FILL THIS GAP.
+Information exists   -> But scattered across platforms
+Resource exist       -> But not optimally utilized
+Volunteer exist      -> But no structured deployment system 
+Effective Coordination is missing
 ```
 ### How we Solve this?
 We have 2 Dashboard one for Admin and another one for volunteers.
