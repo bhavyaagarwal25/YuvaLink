@@ -5,7 +5,7 @@
 </div>
 
 ## Problem Statement
-In Disastar situations,information about the incident usually reaches authorities through tradional ways helplines and control rooms.
+In Disaster situations,information about the incident usually reaches authorities through traditional ways helplines and control rooms.
 However,the Real- challenge begins after that-Coordinating volunteers efficiently and safely.
 ```
 Disaster Occurs
@@ -13,14 +13,14 @@ Disaster Occurs
       |-->Authorities have volunteer support but lack real-time coordination tools
       |-->unverified volunteers
       |-->Resource duplication in some areas
-      |-->Everything becomed very chaotic
+      |-->Everything becomes very chaotic
 ```
 # YuvaLink
 
 YuvaLink bridges the gap between disaster information,available volunteers and coordination systems through :
-  1. Continuously monitors real-time disaster-related information through (News API inttegeration)
+  1. Continuously monitors real-time disaster-related information through (News API integration)
   2. Real-time volunteer Matching(Location-based filtering)
-  3. Structured Task Aloocation (Accept/Decline system)
+  3. Structured Task Allocation (Accept/Decline system)
   4. Organized Team Formation(Automated teams with designated leads)
   5. Controlled Communication(Chat Rooms)
 
@@ -79,7 +79,7 @@ Incident appear on system by News Api/Manual Input
 Incident identified
         |--->Check Live Volunteer Locations
                    |--->Filter Volunteers in Affected Region
-                             |---> Priorit: Nearest Verified Volunteers
+                             |---> Priority: Nearest Verified Volunteers
 ```
 ### Real - Time Task Allocation to Volunteers : 
 * Instant task notification system
@@ -87,7 +87,7 @@ Incident identified
 * Maximum 3 declines allowed
 * Continuous decline results in permanent blocking 
 ```
-Incident indetified
+Incident indentified
       |---> Task Assigned to Volunteer
       |---> Volunteer get alert
       |---> Accept/Decline
@@ -127,9 +127,17 @@ Incident indetified
 ## Flow with Tech
 ![Flow](flow3.png)
 ## Getting Started
-YuvaLink uses modern web technologies with real-time capabilites,making setup Straightforward compared to complex AI architectures.Our stack ensures reliability,scaliability,and developer productivity.
+YuvaLink uses modern web technologies with real-time capabilites,making setup Straightforward compared to complex AI architectures.Our stack ensures reliability,scalability,and developer productivity.
 ### Quick Start
  1. Clone the Repository
- 2. Follow our comprehensive [Installation Guide](/Installation.md)
+ 2. Follow our comprehensive [Installation Guide](/InstallationGuide.md)
  3. Run the deployment enviorment
-For detailed set up instructions and deployment guides, please refer to our [Installation Guide] (/Installation.md)
+For detailed set up instructions and deployment guides, please refer to our [Installation Guide] (/InstallationGuide.md)
+### Contributions
+  **Bhavya Agarwal** => Desgin Admin Dashboard(Frontend) with News Integeration
+  
+  **Anushka Negi** =>Design Volunteer Dashboard(frontend) with webSockets Integeration
+  
+  **Saurabh Singh** => Handle Database (Lucid ORM) + Volunteer verification
+  
+  **Ayushman Chauhan** => Backend 
