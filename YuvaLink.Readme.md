@@ -139,4 +139,9 @@ For detailed set up instructions and deployment guides, please refer to our [Ins
   * **Bhavya Agarwal** => Desgin Admin Dashboard(Frontend) with News Integeration
   * **Anushka Negi** =>Design Volunteer Dashboard(frontend) with webSockets Integeration
   *  **Saurabh Singh** => Handle Database (Lucid ORM) + Volunteer verification
-  *  **Ayushman Chauhan** => Backend 
+  *  **Ayushman Chauhan** => Backend(ALL Integeration + User Auth)
+## Prototype
+ * For Demo purpose only we have done backend integeration in user Auth [LandingPage](https://drive.google.com/file/d/1o8P14dIMkjN5666joIhA2HOEmXBjTQlV/view?usp=sharing)
+ * For Better Understanding here is our [AdminDashBoard](https://drive.google.com/file/d/1Bq2kA70YmX_UDSljL3beI3itCxff6oWX/view?usp=sharing) 
+   
+ * For Better Understanding here is our  [VolunteerDashBoard](https://drive.google.com/file/d/1Bq2kA70YmX_UDSljL3beI3itCxff6oWX/view?usp=sharing)
