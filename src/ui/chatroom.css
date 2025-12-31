@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  .chat-card {
+    @apply bg-white rounded-2xl shadow-lg p-4 flex flex-col h-[290px] w-full max-w-[420px] border border-gray-200 shadow-[0_10px_30px_rgba(0,0,0,0.12)];
+  }
+  .hello{
+    @apply font-semibold text-gray-800 justify-center;
+  }
+  .chat-header {
+    @apply flex relative text-xl font-bold items-center justify-center mb-2;
+  }
+
+  .chat-title {
+    @apply font-bold text-gray-800 text-lg ;
+  }
+
+  .expand-btn {
+    @apply text-blue-600 hover:scale-110 absolute right-0 transition;
+  }
+
+  .chat-messages {
+    @apply flex-1 overflow-y-auto space-y-3 py-2;
+  }
+
+  .chat-msg {
+    @apply max-w-[70%] rounded-xl px-3 py-2 text-sm;
+  }
+
+  .chat-msg-user {
+    @apply bg-gray-100 text-gray-800;
+  }
+
+  .chat-msg-admin {
+    @apply bg-blue-600 text-white ml-auto;
+  }
+
+  .sender {
+    @apply block text-[11px] opacity-70 mb-1;
+  }
+
+  .chat-input {
+    @apply flex gap-2 mt-2;
+  }
+
+  .chat-input-field {
+    @apply flex-1 border rounded-xl px-3 py-2 text-sm
+           focus:outline-none focus:ring-2 focus:ring-blue-500;
+  }
+
+  .send-btn {
+    @apply bg-blue-600 text-white px-3 rounded-xl hover:bg-blue-700;
+  }
+
+  .chat-overlay {
+    @apply fixed inset-0 bg-black/50 flex items-center justify-center z-[9999];
+  }
+
+  .chat-modal {
+    @apply bg-white w-[85%] max-w-5xl h-[85vh]
+           rounded-3xl shadow-2xl flex flex-col p-5;
+  }
+
+  .close-btn {
+    @apply text-gray-500 hover:text-black text-xl absolute right-0;
+  }
+

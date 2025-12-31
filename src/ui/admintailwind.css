@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.hero{
+    @apply relative h-[70h] bg-cover bg-center;
+
+}
+.hero-overlay{
+    @apply absolute inset-0 bg-black/50;
+}
+.navbar{
+    @apply relative z-10 flex items-center gap-4 p-6 text-white;
+}
+.hamburger{
+
+    @apply text-2xl font-bold;
+}
+.hero-title{
+    @apply text-2xl font-bold;
+}
+.hero-subtitle{
+    @apply text-sm text-gray-200;
+}
+.slider-wrapper{
+    @apply relative z-10 flex items-center justify-center h-full;
+}
+.slider-card{
+    @apply in-w-[300px] h-[200px] rounded-2xl overflow-hidden shadow-2xl;
+}
+.main-wrapper{
+    @apply px-6 py-10 space-y-10 bg-gray-100;
+}
+.bottom-grid{
+    @apply grid grid-cols-3 gap-6;
+}
+.stats-col{
+    @apply col-span-2;
+}

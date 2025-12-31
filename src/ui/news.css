@@ -1,0 +1,46 @@
+.feed-section {
+  @apply w-full overflow-hidden;
+}
+.feed-header {
+  @apply flex items-center justify-between px-2 pb-3;
+}
+.feed-title {
+  @apply text-xl font-bold text-gray-800;
+}
+.view-all-btn {
+  @apply bg-[#1F3347] text-white px-4 py-2 rounded-lg text-sm
+         transition-all duration-300 hover:translate-x-1;
+}
+.live-feed-row {
+  @apply flex gap-5 overflow-x-auto overflow-y-hidden
+         px-2 pt-4 pb-6;
+}
+.live-feed-row::-webkit-scrollbar {
+  display: none;
+}
+.live-feed-row {
+  scrollbar-width: none;
+}
+.feed-card {
+  @apply min-w-[300px] max-w-[320px]
+         bg-white rounded-2xl
+         border border-black
+         px-6 py-5
+         shadow-md cursor-pointer
+         -mt-4
+         transition-all duration-300
+         hover:-translate-x-1.5
+         hover:shadow-2xl;
+}
+.feed-desc {
+  @apply text-[15px] text-gray-600 leading-relaxed mb-3;
+}
+
+.feed-time {
+  @apply text-xs text-gray-500 block mb-4;
+}
+.activate-btn {
+  @apply bg-green-600 text-white
+         px-4 py-1.5 rounded-lg text-sm
+         transition-all hover:translate-x-1;
+}

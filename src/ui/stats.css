@@ -1,0 +1,21 @@
+.stats-wrapper{
+    @apply space-y-6;
+}
+.stats-heading{
+    @apply text-lg font-bold mb-2 text-center mb-6;
+}
+.stats-grid{
+    @apply grid grid-cols-2 gap-x-8 gap-y-6 mb-6;
+}
+.stats-card{
+    @apply bg-black rounded-2xl shadow-md p-7 w-full max-w-sm;
+}
+.stats-label{
+    @apply text-sm text-blue-600 font-bold;
+}
+.stats-icon{
+    @apply flex items-center gap-4;
+}
+.stats-value{
+    @apply text-xl text-blue-500 font-bold;
+}
