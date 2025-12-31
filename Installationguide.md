@@ -276,37 +276,42 @@ export const createDisasterValidator = vine.compile(
 ```
 ## RESTful APIs
 
-Authentication                                                                    Method	Endpoint	Description
-    POST	/auth/register	Register use
-    POST	/auth/login	Login
-    POST	/auth/logout	Logout
-
+Authentication
+```         
+Method	Endpoint	Description
+POST/auth/register	Register use
+POST/auth/login 	Login
+POST/auth/logout	Logout
+```
 Disasters
+```
 Method	Endpoint	Description
 POST	/disasters	Create disaster (admin)
 GET	/disasters	List disasters
 GET	/disasters/:id	Disaster details
-
+```
 Appointments
-Method	Endpoint	Description
-POST	/appointments	Create appointment
-POST	/appointments/:id/join	Volunteer joins
-GET	/appointments/:id	Appointment details
-
+```
+Method	Endpoint  Description
+POST/appointments	        Create appointment
+POST/appointments/:id/join	Volunteer joins
+GET/appointments/:id	    Appointment details
+```
 WebSockets – Chat Rooms
+```
 Each appointment creates one chat room
 Room name: appointment:{appointmentId}
 Only assigned users can connect
 Maximum 15 volunteers per admin
 ```
+```
 ws.on('connection', (socket) => {
   socket.join(`appointment:${appointmentId}`)
 })
 ```
-## Project Structure(FrontEnd)
+## Project Structure
 ```
-YuvaLink/
-|-->Frontend/
+YuvaLinkFrontEnd/
     |-->src
         |-->components
             |-->ChatRoom.jsx
@@ -342,10 +347,48 @@ YuvaLink/
    |-->vite.config.js
    |-->node_modules
    |-->public
-|-->BackEnd
 |-->assets
 |-->YuvaLinkReadme.md
 |-->Installationguide.md
+```
+```
+
+YuvaLinkBackend/
+├── .adonisrc.json          
+├── .env                    
+├── .gitignore
+├── package.json
+├── ace                     
+├── build/              
+├── contracts/              
+│   └── contracts.ts
+├── start/                  
+│   ├── kernel.ts           
+│   ├── routes.ts       
+├── app/                    
+│   ├── Controllers/Http/  
+│   │   └── UserController.ts
+│   ├── Models/             
+│   │   └── User.ts
+│   ├── Middleware/         
+│   │   └── Auth.ts
+│   ├── Services/           
+│   ├── Validators/         
+│   │   └── CreateUserValidator.ts
+│   ├── Exceptions/         
+│   └── Repositories/       
+├── database/               
+│   ├── migrations/         
+│   ├── seeds/              
+│   └── factories/          
+├── resources/              
+│   ├── views/
+│   └── public/
+├── tests/                  
+│   ├── feature/
+│   └── unit/
+├── tsconfig.json           
+└── README.md
 ```
 
 
