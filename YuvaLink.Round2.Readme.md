@@ -1,4 +1,4 @@
-<img width="410" height="428" alt="image" src="https://github.com/user-attachments/assets/9db5e5b3-aa87-4c56-aa7b-eea5ecf9e39c" /><div align="center">
+<div align="center">
  <span>
  <img src="logo.png" alt="YuvaLink" width="150" height="auto" />
 </span>
