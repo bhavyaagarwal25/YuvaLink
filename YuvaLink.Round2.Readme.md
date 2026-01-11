@@ -3,9 +3,10 @@
  <img src="logo.png" alt="YuvaLink" width="150" height="auto" />
 </span>
 </div>
+
 # YuvaLink
 here is our deployed website
-### Problem Statement 
+
 ## Problem Statement
 In Disaster situations,information about the incident usually reaches authorities through traditional ways helplines and control rooms.
 However,the Real- challenge begins after that-Coordinating volunteers efficiently and safely.
@@ -27,3 +28,10 @@ Disaster Occurs
 * Automatic team formation with capped team size and dynamic leadership assignment.
 
 * Controlled real-time communication allowing only authorized team leads to interact with admins, reducing chaos during emergencies.
+  
+## Repository Link
+* [YuvaLink](https://github.com/bhavyaagarwal25/YuvaLink)
+* [YuvaLinkFrontEnd](https://github.com/Ayushmangit/yuvalinkFrontendHack.git)
+* [YuvaLinkBackEnd](https://github.com/Ayushmangit/yuvalinkBackend)
+
+## System Architecture
