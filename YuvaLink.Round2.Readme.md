@@ -108,6 +108,31 @@ This architecture ensures YuvaLink remains reliable, scalable and efficient even
 
 ## System Flow 
 
+### (Admin Interface)
+
+### 1. Live Disaster Detection
+The system fetches real-time disaster-related news using News API.  
+Admins review incoming alerts before taking any action.
+
+![Live Disaster Feeds](system-flow/live_disaster_feeds.png)
+
+### 2. Incident Verification & Activation
+Admins manually verify selected incidents and activate them to avoid false or duplicate disaster responses.
+
+![Activate Incident](system-flow/activate_incident.png)
+
+### 3. Active Incident Management
+Once activated, incidents are listed on the admin dashboard where their status and city-wise deployment can be monitored.
+
+![Active Incidents](system-flow/active_incidents.png)
+
+### 4. Volunteer Availability & Skill View
+Admins can view verified volunteers along with their city, skills, and current status to ensure proper task allocation.
+
+![Total Volunteers](system-flow/total_volunteers.png)
+
+
+
 
 ## Impact & Usefulness
 
