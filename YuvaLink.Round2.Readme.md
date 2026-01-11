@@ -5,7 +5,7 @@
 </div>
 
 # YuvaLink
-here is our deployed website
+here is our Demo video [YuvaLink](https://drive.google.com/file/d/1RN11yOQ4rzzq33mBwm4UAPdSagL5YcQ_/view?usp=sharing)
 
 ## Problem Statement
 In Disaster situations,information about the incident usually reaches authorities through traditional ways helplines and control rooms.
@@ -99,7 +99,8 @@ YuvaLink uses PostgreSQL with PostGIS to efficiently manage structured data:
 - Volunteer profile and verification status
 - Task assignments and team information
 - Analytics and operational logs
-
+## ERDiagram
+![YuvaLink System Architecture](ErDiagram.png)
 ## Growth & Scaling Strategy
 
 ### Phase 1: City-Level Deployment
