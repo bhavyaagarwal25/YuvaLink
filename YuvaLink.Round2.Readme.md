@@ -174,3 +174,37 @@ YuvaLink helps authorities manage volunteers in a faster, safer and more organiz
 - Reduced response time can help ssave lives
 
 Overall, YuvaLink turns an unorganized disaster response process into a **structured, reliable and efficient system** where every minute matters.
+
+
+### Team Contributions
+
+- **Bhavya Agarwal**
+  Designed and implemented the Admin Dashboard(Frontend) with News API Integration.
+  
+- **Anushka Negi**
+  Designed the Volunteer Dashboard(frontend) and implemented real-time updates using WebSockets.
+  
+- **Saurabh Singh**
+  Managed Database design using Lucid ORM and handled Volunteer verification logic.
+  
+- **Ayushman Chauhan**
+  Developed Backend services including user authentication, APIs and system integration.
+  
+
+## Future Scope
+
+- **Mobile Application Support**  
+  Native Android and iOS apps for faster volunteer onboarding and real-time alerts.
+
+- **Real-Time Notifications**  
+  Push notifications for task assignment, incident updates, and emergency alerts.
+
+- **Advanced Analytics Dashboard**  
+  Insights on response time, volunteer efficiency, and incident trends for better decision-making.
+
+- **Offline Mode for Volunteers**  
+  Allow volunteers to view assigned tasks even with limited network connectivity.
+
+- **Integration with Government & NGO Systems**  
+  Enable data sharing with official disaster management authorities for coordinated response.
+
