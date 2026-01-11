@@ -53,7 +53,9 @@ Disaster Occurs
 
 ## System Architecture
 
-![YuvaLink System Architecture](architecture.png)
+<div align="center">
+  <img src="architecture.png" alt="YuvaLink System Architecture" width="700"/>
+</div>
 
 ### Architecture Overview
 YuvaLink is designed as a scalable disaster response and volunteer coordination system.
@@ -159,12 +161,16 @@ System prioritizes reliability and controlled coordination during emergencies.
 The system fetches real-time disaster-related news using News API.  
 Admins review incoming alerts before taking any action.
 
-![Live Disaster Feeds](system-flow/live_disaster_feeds.png)
+<div align="center">
+  <img src="system-flow/live_disaster_feeds.png" alt="Live Disaster Feeds" width="700"/>
+</div>
 
 ### 2. Incident Verification & Activation
 Admins manually verify selected incidents and activate them to avoid false or duplicate disaster responses.
 
 ![Activate Incident](system-flow/activate_incident.png)
+
+
 
 ### 3. Active Incident Management
 Once activated, incidents are listed on the admin dashboard where their status and city-wise deployment can be monitored.
@@ -182,16 +188,25 @@ The Volunteer Interface allows volunteers to onboard, access their dashboard, an
 
 ### 1. Volunteer registration
 New volunteers can sign up by entering basic information such as name, city, and relevant skills required for disaster response activities.
-![Volunteer Registration](system-flow/register.png)
+<div align="center">
+  <img src="system-flow/register.png" alt="Volunteer Registration" width="450"/>
+</div>
+
 
 
 ### 2. Volunteer Login
 Volunteers can log in using their registered email and password to access the volunteer dashboard and ongoing missions.
-![Volunteer Login](system-flow/login.png)
+<div align="center">
+  <img src="system-flow/login.png" alt="VolunteerLogin" width="450"/>
+</div>
+
 
 ### 3. Volunteer Dashboard
 After login, volunteers are redirected to a dashboard. The dashboard displays availability status, assigned tasks, team details, assigned role, and team leader contact information for structured coordination.
-![Volunteer Dashboard](system-flow/dashboard.png)
+<div align="center">
+  <img src="system-flow/dashboard.png" alt="Volunteer Dashboard" width="450"/>
+</div>
+
 
 ---
 
