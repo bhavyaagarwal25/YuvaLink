@@ -1,11 +1,11 @@
-<div align="center">
+<img width="410" height="428" alt="image" src="https://github.com/user-attachments/assets/9db5e5b3-aa87-4c56-aa7b-eea5ecf9e39c" /><div align="center">
  <span>
  <img src="logo.png" alt="YuvaLink" width="150" height="auto" />
 </span>
 </div>
 
 # YuvaLink
-here is our Demo video [YuvaLink](https://drive.google.com/file/d/1RN11yOQ4rzzq33mBwm4UAPdSagL5YcQ_/view?usp=sharing)
+Here is our Demo video [YuvaLink](https://drive.google.com/file/d/1cAi_RZHOWRD9cXYe6cX6-DajQ9nbUSej/view?usp=drivesdk)
 
 ## Problem Statement
 In Disaster situations,information about the incident usually reaches authorities through traditional ways helplines and control rooms.
@@ -18,6 +18,9 @@ Disaster Occurs
       |-->Resource duplication in some areas
       |-->Everything becomes very chaotic
 ```
+
+---
+
 ## Improvements from Round 1 to Round 2
 
 - Converted static volunteer listings into geo-based real-time task allocation.
@@ -25,6 +28,8 @@ Disaster Occurs
 - Added WebSocket-based real-time updates for tasks and incident status.
 - Designed a scalable system architecture with defined failure-handling strategies.
 - Clearly divided system ownership across team members for better integration.
+
+---
 
 ## Solution Overview
 * Dual-dashboard architecture separates disaster control (Admin) from execution (Volunteers), ensuring fast and structured response.
@@ -36,11 +41,15 @@ Disaster Occurs
 * Automatic team formation with capped team size and dynamic leadership assignment.
 
 * Controlled real-time communication allowing only authorized team leads to interact with admins, reducing chaos during emergencies.
+
+---
   
 ## Repository Link
 * [YuvaLink](https://github.com/bhavyaagarwal25/YuvaLink)
 * [YuvaLinkFrontEnd](https://github.com/Ayushmangit/yuvalinkFrontendHack.git)
 * [YuvaLinkBackEnd](https://github.com/Ayushmangit/yuvalinkBackend)
+
+---
 
 ## System Architecture
 
@@ -99,8 +108,13 @@ YuvaLink uses PostgreSQL with PostGIS to efficiently manage structured data:
 - Volunteer profile and verification status
 - Task assignments and team information
 - Analytics and operational logs
-## ERDiagram
-![YuvaLink System Architecture](ErDiagram.png)
+
+---
+
+## ER Diagram
+![YuvaLink Data Model](ErDiagram.png)
+
+---
 ## Growth & Scaling Strategy
 
 ### Phase 1: City-Level Deployment
@@ -123,6 +137,8 @@ YuvaLink uses PostgreSQL with PostGIS to efficiently manage structured data:
 - Geo queries → regional sharding
 - Task assignment latency → async processing
 
+---
+
 ## Failure Handling & Safety Mechanisms
 
 - **False Disaster Alerts:** Admin verification prevents automatic activation.
@@ -133,7 +149,7 @@ YuvaLink uses PostgreSQL with PostGIS to efficiently manage structured data:
 
 System prioritizes reliability and controlled coordination during emergencies.
 
-
+---
 
 ## System Flow 
 
@@ -160,8 +176,24 @@ Admins can view verified volunteers along with their city, skills, and current s
 
 ![Total Volunteers](system-flow/total_volunteers.png)
 
+### (Volunteer Interface)
+
+The Volunteer Interface allows volunteers to onboard, access their dashboard, and view assigned roles and team information during disaster response.
+
+### 1. Volunteer registration
+New volunteers can sign up by entering basic information such as name, city, and relevant skills required for disaster response activities.
+![Volunteer Registration](system-flow/register.png)
 
 
+### 2. Volunteer Login
+Volunteers can log in using their registered email and password to access the volunteer dashboard and ongoing missions.
+![Volunteer Login](system-flow/login.png)
+
+### 3. Volunteer Dashboard
+After login, volunteers are redirected to a dashboard. The dashboard displays availability status, assigned tasks, team details, assigned role, and team leader contact information for structured coordination.
+![Volunteer Dashboard](system-flow/dashboard.png)
+
+---
 
 ## Impact & Usefulness
 
@@ -180,8 +212,6 @@ YuvaLink helps authorities manage volunteers in a faster, safer and more organiz
   Tasks are allocated based on volunteer skills and location.
   This avoids duplication of work and ensures all areas receive proper support.
 
-
-
 ### Who benefits from YuvaLink
 
 **Authorities & NGOs**
@@ -198,7 +228,7 @@ YuvaLink helps authorities manage volunteers in a faster, safer and more organiz
 - Receive faster and more organized help
 - Reduced response time can help ssave lives
 
-
+---
 
 ## Team Contributions
 
@@ -213,7 +243,8 @@ YuvaLink helps authorities manage volunteers in a faster, safer and more organiz
   
 - **Ayushman Chauhan**
   Developed Backend services including user authentication, APIs and system integration.
-  
+
+---
 
 ## Future Scope
 
